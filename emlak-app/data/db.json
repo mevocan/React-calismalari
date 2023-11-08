@@ -1,0 +1,39 @@
+{
+	"konutlar": [
+	  {
+		"id": 1,
+		"baslik": "3+1 7.Kat",
+		"fiyat": 5000000,
+		"konum": "Çukurova,Adana",
+		"durum":"Satılık"
+	  },
+	  {
+		"id": 2,
+		"baslik": "2+1 4.Kat",
+		"fiyat": 5000,
+		"konum": "Seyhan,Adana",
+		"durum":"Kiralık"
+	  },
+	  {
+		"id": 3,
+		"baslik": "3+1 1.Kat",
+		"fiyat": 2000000,
+		"konum": "Şehitkamil,Gaziantep",
+		"durum":"Satılık"
+	  },
+	  {
+		"id": 4,
+		"baslik": "1+0 1.Kat",
+		"fiyat": 3000,
+		"konum": "Antakya,Hatay",
+		"durum":"Kiralık"
+	  },
+	  {
+		"id": 5,
+		"baslik": "3+1 3.Kat",
+		"fiyat": 1500000,
+		"konum": "Antakya,Hatay",
+		"durum":"Satılık"
+	  }
+	]
+}
