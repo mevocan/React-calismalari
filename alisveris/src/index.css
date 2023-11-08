@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fefefe;
+    color: #333333 ;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+header a{
+    font-size: 14px;
+    color: #9999;
+    margin-left: 50px;
+    text-decoration: none;
+}
+header a:hover{
+    color: #00000099;
+}
+.svg-icon:hover{
+    cursor: pointer;
+}
+.user{
+    height: 50px;
+    width: 50px;
+}
+.arama-motoru{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.arama-motoru input{
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    width: 90%;
+}
+.arama-motoru:focus-within{
+    border: 2px solid orange;
+    box-shadow:4px rgba(0, 0, 0, 0.6);
+}
+.account-user{
+    display: flex;
+    
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+.account-user .icon-container h6{
+    font-size: 13px;
+    margin:  0 0 0 3px;
+}
+.navigaitor{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.navigaitor .icon-container{
+    transition: all .3s ease;
+}
+.navigaitor .icon-container:hover{
+    cursor: pointer;
+    color: orange;
+}
+.custom-row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-nav{
+    display: flex;
+}
+.tab-link{
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}

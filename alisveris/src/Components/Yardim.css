@@ -1,0 +1,27 @@
+.card-content {
+    display: none;
+  }
+  
+  .card.open .card-content {
+    display: block;
+    animation: slide-down 0.3s ease;
+  }
+  
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.orange{
+  color: orange;
+}
+.icon{
+  
+  left: 0;
+}
+  
